@@ -7,7 +7,7 @@ const faqData = [
         "Identify potential issues that may not be immediately visible to the human eye",
         "quicker diagnoses and more timely treatment"
         ],
-        image: "images/clinic-img/dori-chair.png"
+        image: "IMAGES/clinic-img/dori-chair.png"
       },
       {
         question: "10x Safety and and 4 steps sterilization process",
@@ -17,7 +17,7 @@ const faqData = [
         "Identify potential issues that may not be immediately visible to the human eye",
         "quicker diagnoses and more timely treatment"
         ],
-        image: "images/clinic-img/sterilization.png"
+        image: "IMAGES/clinic-img/sterilization.png"
       },
       {
         question: "Experienced and Certified implantologist",
@@ -28,7 +28,7 @@ const faqData = [
             "Continuous training programs for dentists to keep them up to date with the latest technology.",
             "Minimally invasive implant procedures to reduce recovery and treatment times."
         ],
-        image: "images/clinic-img/implantologist.png"
+        image: "IMAGES/clinic-img/implantologist.png"
       },
       {
         question: "Updated with world class equipments",
@@ -38,7 +38,7 @@ const faqData = [
         "Identify potential issues that may not be immediately visible to the human eye",
         "quicker diagnoses and more timely treatment"
         ],
-        image: "images/clinic-img/implantologist.png"
+        image: "IMAGES/clinic-img/implantologist.png"
       },
       {
         question: "Regular audits for safety protocols",
@@ -48,13 +48,13 @@ const faqData = [
         "Identify potential issues that may not be immediately visible to the human eye",
         "quicker diagnoses and more timely treatment"
         ],
-        image: "images/clinic-img/dori-chair.png"
+        image: "IMAGES/clinic-img/dori-chair.png"
       }
     ];
 
     const faqList = document.getElementById("faqList");
     const mainImage = document.getElementById("mainImage");
-    const defaultImage = "/IMAGES/clinic-img/default-img.png";
+    const defaultImage = "images/implantologist.jpg.png";
     let currentOpen = null;
 
     for (let item of faqData) {

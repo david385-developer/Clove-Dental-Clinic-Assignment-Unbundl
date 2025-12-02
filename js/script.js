@@ -54,7 +54,7 @@ const faqData = [
 
     const faqList = document.getElementById("faqList");
     const mainImage = document.getElementById("mainImage");
-    const defaultImage = "images/implantologist.jpg.png";
+    const defaultImage = "/IMAGES/clinic-img/default-img.png";
     let currentOpen = null;
 
     for (let item of faqData) {
